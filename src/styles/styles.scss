@@ -2,23 +2,10 @@
 
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
+//@import "~bootstrap/scss/mixins";
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
 
-/* bootstrap */
-$grid-breakpoints: (
-  xs: 0,
-  sm: 360px,
-  md: 768px,
-  lg: 1280px
-);
-
-$container-max-widths: (
-  sm: 360px,
-  md: 768px,
-  lg: 1280px
-);
 
 
 /*mike*/
