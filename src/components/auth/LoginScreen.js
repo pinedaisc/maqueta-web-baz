@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 export const LoginScreen = () => {
 
-	const [formValues, handleInputChange] = useForm({
+	 const [formValues, handleInputChange] = useForm({
 		user: '',
 		password: ''
 	});
@@ -19,6 +19,7 @@ export const LoginScreen = () => {
 
 	const { user, password } = formValues;
 
+	/*
 	const handleSubmit = (event) => {
 		
 		event.preventDefault()
@@ -31,8 +32,10 @@ export const LoginScreen = () => {
 
 	}
 
+	*/
+
 	return (
-		<form onSubmit={handleSubmit}>
+		<form>
 			<div className="m-0 mx-md-0 mx-lg-0 mx-3 vh-100 d-flex justify-content-center align-items-center">
 				<div className="card card-login w-100 p-4">
 					<div className="d-flex justify-content-center align-items-center">
