@@ -1,0 +1,16 @@
+.card {
+	background: map-get($theme-colors, "white");
+	@extend .shadow;
+	border-radius: 10px !important;
+}
+
+.input {
+	border: none;
+	border-bottom: 1px solid map-get($theme-colors, "baz-purple");
+	box-shadow: none !important;
+	outline: none !important;
+	width: 100%;
+	font-size: 1rem;
+	padding: 0.2rem;
+	color: map-get($theme-colors, "baz-gray") !important;
+}

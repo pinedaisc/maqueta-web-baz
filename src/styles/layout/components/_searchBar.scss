@@ -1,0 +1,38 @@
+/* barra de búsqueda*/
+
+.search{
+	text-align: center;
+	
+}
+
+.search .comp-search{
+	  display: flex;
+	  justify-content: center;
+	align-items: center;
+  }
+  
+.search .comp-search .text{
+	  width: 100%;
+	  max-width: 752px;
+	  height: auto;
+	  margin: 10px 5px;
+	  padding: 12px 12px 10px 16px;
+	  border-radius: 10px;
+	  border: solid 1px #c2c2c2;
+	  
+	  
+  }
+  
+  .search .comp-search .search-button{
+	  background: no-repeat center center url("../../../assets/images/iconos-sistema-accion-buscar_3.png");
+	  width: 24px;
+	  position: relative;
+	  right: 40px;
+	  border: none;
+  }
+  
+  .search .comp-search .search-button:hover{
+	cursor:pointer;
+	animation: pulse; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 1s; 
+  }

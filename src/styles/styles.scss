@@ -1,0 +1,155 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+/* bootstrap */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 360px,
+  md: 768px,
+  lg: 1280px
+);
+
+$container-max-widths: (
+  sm: 360px,
+  md: 768px,
+  lg: 1280px
+);
+
+
+/*mike*/
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins,sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #222E41;
+    background-color:#f5f5f5;
+}
+
+.main-container{
+  min-height: calc(100vh - 337px);
+
+}
+
+
+/* .float-right{
+	margin-left: auto;
+  padding: 0px;
+  } */
+  
+  a, a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: inherit;
+  }
+
+/****/
+.font_32_bold {
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.13px;
+  letter-spacing: normal;
+  color: #222e41;
+}
+
+.font_16 {
+    font-size: 16px;    
+    font-stretch: normal;
+    font-style: normal;    
+    letter-spacing: normal;
+    color: #222e41;
+}
+
+.font_18_bold {
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-size: 18px;
+    font-weight: bold;    
+    line-height: 1.11;
+    color: #222e41;
+}
+
+.font_13 {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;    
+    letter-spacing: normal;
+    color: #747f92;
+}
+
+.font_28 {
+    font-size: 28px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #222e41;
+}
+
+.font_bold_14 {
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;    
+}
+
+.font_normal_14 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;    
+}
+
+.font_15 {
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.resumen .holder {
+  padding: 0;
+}
+
+.holder {
+  padding: 0 73px;
+  margin: 0 auto;
+  /*max-width: 1280px;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@import './core/colors';
+@import './core/base';
+@import './core/components';
+@import './core/avatar';
+@import './auth/login';
+@import './layout/components/navbar';
+@import './layout/components/footer';
+@import './layout/components/searchBar';
+@import './layout/components/movieCategoryList';
+@import './layout/components/cardMovie';
+@import './home/home';
+@import './movies/movies';
+/* @import './layout/components/player'; */ /* cuidao porque estos estilos está generales */
+@import 'swiper';
+
+/****/
+@import './layout/components/sypnosis';
+@import './layout/components/videoPlayer';

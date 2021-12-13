@@ -1,0 +1,102 @@
+  /**/
+
+footer{
+    color: white;
+    padding: 25px 23px 13px 25px;
+    background-color: #8200ff;
+    /* display: flex;
+    flex-direction: column;*/
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    
+    .holder{
+     max-width: 1280px;
+     margin: 0 auto;
+    }
+    
+    .rights{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+    }
+    
+    .rights .line{
+     width: 100%;
+     height: 1px;
+     margin: 24px 0 12px;
+    
+    }
+    .rights .line hr{
+    border: solid 1px #ac55ff;
+    position: relative;
+    }
+    
+    .social-media .logo{
+     margin: 0 50px 0 0;
+    }
+    
+    .terms ul li{
+     text-decoration: none;
+     list-style-type: none;
+     margin-bottom: 30px;
+    }
+    
+    .social-media .media .mail-help{
+     background: no-repeat left center url("../../../assets/images/icon-contact-mail.svg");
+     padding-left: 30px;
+     margin-bottom: 10px;
+    }
+    
+    .social-media .media .phone-help{
+     background: no-repeat left center url("../../../assets/images/icon-contact-phone.svg");
+     padding-left: 30px;
+    }
+    
+    
+    
+    .social-media .network .fb,.in,.yt,.tw{
+     display: flex;
+     width: 24px;
+     height: 24px;
+     margin: 15px 5px 14px 5px;
+    
+    }
+    
+    .fb{
+     background: no-repeat center center url("../../../assets/images/icon-social-facebook.svg");
+    }
+    .in{
+     background: no-repeat center center url("../../../assets/images/icon-social-instagram.svg");
+    }
+    .yt{
+     background: no-repeat center center url("../../../assets/images/icon-social-youtube.svg");
+    }
+    .tw{
+     background: no-repeat center center url("../../../assets/images/icon-social-twitter.svg");
+    }
+    
+    .links .qrcore{
+    margin-top: 20px;
+    }
+    
+    .links .qrcore a img{
+     width: 122px;
+     height: auto;
+    }
+    
+    .app-stores{
+     margin-bottom: 0px;
+    }
+    
+    .play-store, .app-store{
+     margin-bottom: 5px;
+     width: 106px;
+     height: 34px;
+    }
+
+}
+
+
+

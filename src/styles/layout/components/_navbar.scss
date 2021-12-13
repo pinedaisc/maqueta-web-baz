@@ -1,0 +1,53 @@
+/* header */
+navbar.main{
+    height: 78px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    /* margin: 0 0 32px; */
+    padding: 16px 72px 16px 72px;
+}
+
+.logo{
+    background: no-repeat center center url("../../../assets/images/logo-baz.svg");
+        width: 104px;
+        height: 46px;
+}
+
+.logo:hover{
+  cursor:pointer;
+  animation: pulse; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; 
+}
+
+.profile{
+  margin: 0 6px 0 6px;
+}
+
+.profile img {
+    width: 40px;
+    height: 40px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border: 3px solid #8200ff;
+  }
+
+  .profile span{
+	margin-left: 10px;
+	padding: 0px;
+  }
+  
+
+  .notifications {
+    background: no-repeat center center url("../../../assets/images/icons-system-message-center-without-notification-off.svg");
+    width: 36px;
+    height: 36px;
+    margin: 0 6px 0 11px;
+  }
+
+  .notifications:hover, .logout:hover{
+    cursor:pointer;
+    animation: pulse; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; 
+  }
