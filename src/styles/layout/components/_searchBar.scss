@@ -1,21 +1,19 @@
 /* barra de búsqueda*/
 
-.search{
+ .search{
 	text-align: center;
-	
-}
-
-.search .comp-search{
-	  display: flex;
-	  justify-content: center;
-	align-items: center;
   }
   
-.search .comp-search .text{
-	  width: 100%;
-	  max-width: 752px;
+  .search .comp-search{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+   .search .comp-search .text{
+	  width: 752px;
 	  height: auto;
-	  margin: 10px 5px;
+	  margin: 32px 16px;
 	  padding: 12px 12px 10px 16px;
 	  border-radius: 10px;
 	  border: solid 1px #c2c2c2;
@@ -27,7 +25,7 @@
 	  background: no-repeat center center url("../../../assets/images/iconos-sistema-accion-buscar_3.png");
 	  width: 24px;
 	  position: relative;
-	  right: 40px;
+	  right: 70px;
 	  border: none;
   }
   

@@ -11,49 +11,39 @@ export const Navbar = () => {
 
     const navigate = useNavigate();
 
+    const  name  = "Miguel"
 
-    const { pathname: location } = useLocation();
-
-    const dispatch = useDispatch();
-
+    const navigateToLogin = () => navigate('/login');
     const navigateToHome = () => navigate('/');
 
     const logout = () => {
-        navigate('/login')
+        navigateToLogin
     }
 
     return (
-        <navbar className="main">
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <div className="logo" onClick={navigateToHome}></div>
-                    </div>
-                    <div className="col">
-                        <NavLink to="/">
-                            <button className={`btn btn-navbar p-2 ${location === "/" ? 'border-bottom border-baz-purple' : ''}`}>
-                                <h6>Home</h6>
-                            </button>
-                        </NavLink>
-                        <NavLink to="/movies">
-
-                            <button className={` btn btn-navbar p-2 ${location === "/movies" ? 'border-bottom border-baz-purple' : ''}`}>
-                                <h6>Movies</h6>
-                            </button>
-                        </NavLink>
-                    </div>
-                    <div className="col border-left px-3 d-flex justify-content-center align-items-center">
-                            <div className="profile">
-                                <Avatar
-                                    url="https://hipertextual.com/wp-content/uploads/2020/09/hipertextual-fortnite-rinde-homenaje-chadwick-boseman-con-impresionante-estatua-black-panther-2020149363.jpg"
-                                />
-                                <span><NavLink to="/rental/asdasd">Miguel Pineda </NavLink></span>
-                            </div>
-
-                            <div className="notifications"></div>
-                            <button className="btn btn-navbar p-2 logout" onClick={logout}>Logout</button>
+        <navbar class="main">
+            <div class="logo" onClick={navigateToHome}></div>
+            <NavLink to="/movies">
+                <div className="row ms-5">
+                    <div className="col-6">
+                        <button className={`btn-navbar p-2 ${location === "/" ? 'border-bottom border-baz-purple' : ''}`}>
+                            <h6>Movies</h6>
+                        </button>
                     </div>
                 </div>
+            </NavLink>
+            <div class="float-right">
+                <div class="profile">
+                    <Avatar
+                        url="https://hipertextual.com/wp-content/uploads/2020/09/hipertextual-fortnite-rinde-homenaje-chadwick-boseman-con-impresionante-estatua-black-panther-2020149363.jpg"
+                    />
+                    <span>anon</span>
+                </div>
+                
+                <div class="notifications"></div>
+                <button className="btn btn-baz-purple ms-5" onClick={logout}>
+                    Logout
+                </button>
             </div>
         </navbar>
     )

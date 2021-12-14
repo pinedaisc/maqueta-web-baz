@@ -7,8 +7,6 @@
     border-radius: 8px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    display: flex;
-    flex-direction: column;
   }
 
   .card-main:hover{
@@ -25,7 +23,7 @@
   }
 
   .card-main .titulo{
-        width: 134px;
+      width: 134px;
         height: 38px;
         margin: 8px 26px 0 0;
         font-family: Poppins;
@@ -39,8 +37,7 @@
   }
 
   .card-main .genero {
-    display: block;
-    margin: 0px 122px 0 0;
+    margin: 46px 122px 0 0;
     font-family: Poppins;
     font-size: 13px;
     font-weight: normal;

@@ -32,7 +32,7 @@ export const startLogin = (user, password) => {
             const resp = await fetchSinToken('auth/login', { user, password }, 'POST');
             const body = await resp.json();
             
-            if (true) {
+            if (body.ok) {
                 loginOk(body);
                 dispatch(loginSucces({ uid: body.uid, name: body.name }));
             } else {

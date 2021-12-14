@@ -4,7 +4,7 @@ navbar.main{
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
     display: flex;
-    /* margin: 0 0 32px; */
+    margin: 0 0 32px;
     padding: 16px 72px 16px 72px;
 }
 
@@ -21,6 +21,7 @@ navbar.main{
 }
 
 .profile{
+  float: left;
   margin: 0 6px 0 6px;
 }
 
@@ -44,9 +45,10 @@ navbar.main{
     width: 36px;
     height: 36px;
     margin: 0 6px 0 11px;
+    float: left;
   }
 
-  .notifications:hover, .logout:hover{
+  .notifications:hover{
     cursor:pointer;
     animation: pulse; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1s; 

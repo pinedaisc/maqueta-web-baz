@@ -6,7 +6,9 @@
     /*display: none; /*quitar despues*/
   }
 
-  
+  .category header{
+    display: flex;
+  }
 
   .category .title{
     font-size: 28px;
@@ -20,19 +22,24 @@
 
   .category .link-category{
     background: no-repeat right center url("../../../assets/images/ver-todo-18-chevron.svg");;
-
+    padding-right: 27px;
+    padding-top: 3px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #8200ff;
   }
 
   .category .ver-todo{
         background: no-repeat center right url("../../../assets/images/ver-todo-18-chevron.svg");
-        width: 100px;
+        width: 118px;
         height: 27px;
         float: right;
-        padding-right: 27px;
-        font-weight: bold;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: normal;
-        letter-spacing: normal;
-        color: #8200ff;
+  }
+
+  .category .card-main-pagination{
+      display: flex;
+      flex-direction: row;
   }

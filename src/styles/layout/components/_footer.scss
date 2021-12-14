@@ -1,102 +1,159 @@
-  /**/
+  /*Footer*/
 
-footer{
+  footer{
     color: white;
+    width: 100%;
+    height: auto;
+    margin: 56px 0 0;
     padding: 25px 23px 13px 25px;
     background-color: #8200ff;
-    /* display: flex;
-    flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
     font-size: 13px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    
-    .holder{
-     max-width: 1280px;
-     margin: 0 auto;
-    }
-    
-    .rights{
-     display: flex;
-     flex-direction: column;
-     text-align: center;
-    }
-    
-    .rights .line{
-     width: 100%;
-     height: 1px;
-     margin: 24px 0 12px;
-    
-    }
-    .rights .line hr{
-    border: solid 1px #ac55ff;
-    position: relative;
-    }
-    
-    .social-media .logo{
-     margin: 0 50px 0 0;
-    }
-    
-    .terms ul li{
-     text-decoration: none;
-     list-style-type: none;
-     margin-bottom: 30px;
-    }
-    
-    .social-media .media .mail-help{
-     background: no-repeat left center url("../../../assets/images/icon-contact-mail.svg");
-     padding-left: 30px;
-     margin-bottom: 10px;
-    }
-    
-    .social-media .media .phone-help{
-     background: no-repeat left center url("../../../assets/images/icon-contact-phone.svg");
-     padding-left: 30px;
-    }
-    
-    
-    
-    .social-media .network .fb,.in,.yt,.tw{
-     display: flex;
-     width: 24px;
-     height: 24px;
-     margin: 15px 5px 14px 5px;
-    
-    }
-    
-    .fb{
-     background: no-repeat center center url("../../../assets/images/icon-social-facebook.svg");
-    }
-    .in{
-     background: no-repeat center center url("../../../assets/images/icon-social-instagram.svg");
-    }
-    .yt{
-     background: no-repeat center center url("../../../assets/images/icon-social-youtube.svg");
-    }
-    .tw{
-     background: no-repeat center center url("../../../assets/images/icon-social-twitter.svg");
-    }
-    
-    .links .qrcore{
-    margin-top: 20px;
-    }
-    
-    .links .qrcore a img{
-     width: 122px;
-     height: auto;
-    }
-    
-    .app-stores{
-     margin-bottom: 0px;
-    }
-    
-    .play-store, .app-store{
-     margin-bottom: 5px;
-     width: 106px;
-     height: 34px;
-    }
+    bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    max-width: 1280px;
+}
 
+footer .main{
+  display: flex;
+  align-content: space-around;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0 48px 0 72px;
+}
+
+footer .rights{
+  display: flex;
+  flex-direction: column;
+  text-align: center
+  ;
+}
+
+footer .rights .line{
+  width: 100%;
+  height: 1px;
+  margin: 24px 0 12px;
+
+}
+footer .rights .line hr{
+border: solid 1px #ac55ff;
+position: relative;
+}
+
+
+footer .main .social-media{
+  display: flex;
+}
+
+footer .main .social-media .media{
+  display: flex;
+  flex-direction: column;
 }
 
 
 
+footer .main .social-media .logo{
+  margin: 0 50px 0 0;
+}
+
+footer .main .terms ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+footer .main .social-media .media .mail-help{
+  background: no-repeat left center url("../../../assets/images/icon-contact-mail.svg");
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+footer .main .social-media .media .phone-help{
+  background: no-repeat left center url("../../../assets/images/icon-contact-phone.svg");
+  padding-left: 30px;
+}
+
+
+footer .main .social-media .network{
+  display: flex;
+  flex-direction: row;
+
+}
+
+footer .main .social-media .network .fb,.in,.yt,.tw{
+  display: flex;
+  width: 24px;
+  height: 24px;
+  margin: 15px 5px 14px 5px;
+
+}
+
+
+.fb{
+  background: no-repeat center center url("../../../assets/images/icon-social-facebook.svg");
+}
+.in{
+  background: no-repeat center center url("../../../assets/images/icon-social-instagram.svg");
+}
+.yt{
+  background: no-repeat center center url("../../../assets/images/icon-social-youtube.svg");
+}
+.tw{
+  background: no-repeat center center url("../../../assets/images/icon-social-twitter.svg");
+}
+
+footer .main .terms{
+  margin: 0 50px 0 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+footer .main .links{
+  display: flex;
+  flex-direction: row;
+}
+
+footer .main .links .qrcore{
+margin-top: 20px;
+}
+
+footer .main .links .qrcore a img{
+  width: 122px;
+  height: auto;
+}
+
+
+footer .main .links .app-stores {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.play-store{
+  
+  width: 106px;
+  height: 34px;
+}
+
+.app-store{
+  
+  width: 106px;
+  height: 34px;
+}
+
+footer .rights{
+  display: flex;
+  justify-content: center;
+}
+
+.descarga img{
+    width: 100px;
+    height: 100px;
+}

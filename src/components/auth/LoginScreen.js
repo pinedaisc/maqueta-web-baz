@@ -4,11 +4,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import bazLogo from 'assets/images/baz_logo.png'
 import { User, Password } from 'assets/icons/icons'
 import { startLogin } from 'actions/auth';
-import { NavLink } from 'react-router-dom';
 
 export const LoginScreen = () => {
 
-	 const [formValues, handleInputChange] = useForm({
+	const [formValues, handleInputChange] = useForm({
 		user: '',
 		password: ''
 	});
@@ -19,7 +18,6 @@ export const LoginScreen = () => {
 
 	const { user, password } = formValues;
 
-	/*
 	const handleSubmit = (event) => {
 		
 		event.preventDefault()
@@ -32,10 +30,8 @@ export const LoginScreen = () => {
 
 	}
 
-	*/
-
 	return (
-		<form>
+		<form onSubmit={handleSubmit}>
 			<div className="m-0 mx-md-0 mx-lg-0 mx-3 vh-100 d-flex justify-content-center align-items-center">
 				<div className="card card-login w-100 p-4">
 					<div className="d-flex justify-content-center align-items-center">
@@ -70,11 +66,9 @@ export const LoginScreen = () => {
 						/>
 					</div>
 					{!!error && <div style={{color:'red'}}>{message}</div>}
-					<NavLink to ="/movies" >
 					<button className="btn btn-baz-green mt-5 mb-4 font-weight-bold" type="submit">
 						Continuar
 					</button>
-					</NavLink>
 				</div>
 			</div>
 		</form>
