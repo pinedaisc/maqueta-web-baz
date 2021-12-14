@@ -3,7 +3,6 @@ import React from 'react'
 
 export const Player = () => {
     return (
-        <div className="container">
             <section className="video-area">
                 <div className="wrapper">
                     <div className="video-player">
@@ -36,6 +35,5 @@ export const Player = () => {
                     </div>
                 </div>
             </section>
-        </div>
     )
 }

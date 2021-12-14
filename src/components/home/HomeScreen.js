@@ -1,9 +1,12 @@
 import { testApi, testNode , testRoute } from "api/node/test";
 import { useEffect, useState } from "react";
+import { PagosModal } from './../modals/pagos/PagosModal';
+import { MovieCategoryList } from './../movies/movieCategorylist/MovieCategoryList';
+import { Player } from './../movies/player/Player';
 
 export const HomeScreen = () => {
-
-	const [node, setNode] = useState('');
+	const [estadoModal, cambiarEstadoModal1] = useState(false);
+	/* const [node, setNode] = useState('');
 	const [nodeRoute, setNodeRoute] = useState('');
 	const [nodeApi, setNodeApi] = useState('');
 	let data = "valor enviado";
@@ -25,14 +28,12 @@ export const HomeScreen = () => {
                 }  
             );
     },[ ]);
-	
+	 */
 	return (
 		<div>
-			<h1 className="text-center">Home Component</h1>	
-			<p>{node}</p>
-			<p>{nodeRoute}</p>
-			<p> {nodeApi}</p>
-			<img src={nodeApi}></img>
+			<PagosModal >
+				<Player/>
+			</PagosModal>
 		</div>
 	)
 

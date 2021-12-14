@@ -1,0 +1,52 @@
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contenedor-modal{
+        width: 500px;
+        width: 500px;
+        min-height: 100px;
+        background: white;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+    }
+
+    .contenido{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .btn-cerrarModal{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        min-width: 30px;
+        height: 30px;
+        border: none;
+        background: black;
+        cursor: pointer;
+        transition: .3s ease all;
+        color: cyan;
+
+        &:hover{
+            background:darkcyan;
+        }
+    }
+
+    .btn-aceptar{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+    }
+}
