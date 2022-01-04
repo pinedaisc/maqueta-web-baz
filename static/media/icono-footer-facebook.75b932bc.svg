@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>65992A89-45C6-4F31-8190-164C6C0E6B1E</title>
+    <defs>
+        <polygon id="path-1" points="0 0 32 0 32 32 0 32"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D_Catalogo" transform="translate(-261.000000, -1473.000000)">
+            <g id="componentes/footer/completo/desktop" transform="translate(0.000000, 1433.000000)">
+                <g id="icono/footer/facebook" transform="translate(261.000000, 40.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-8"></g>
+                    <path d="M21.2135507,17.3751166 L21.8353649,13.3937141 L17.9449106,13.3937141 L17.9449106,10.8095023 C17.9449106,9.72010401 18.4888396,8.65868687 20.2308058,8.65868687 L22,8.65868687 L22,5.26861875 C22,5.26861875 20.3948077,5 18.8599019,5 C15.6558493,5 13.5618173,6.90644696 13.5618173,10.3586953 L13.5618173,13.3937141 L10,13.3937141 L10,17.3751166 L13.5618173,17.3751166 L13.5618173,27 L17.9449106,27 L17.9449106,17.3751166 L21.2135507,17.3751166 Z" id="Fill-7" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
